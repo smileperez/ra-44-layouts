@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+.material-icons.md-18 { font-size: 18px; }
+.material-icons.md-24 { font-size: 24px; }
+.material-icons.md-36 { font-size: 36px; }
+.material-icons.md-48 { font-size: 48px; }
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    margin: auto auto;
+    width: 80%;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.cardView {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.shop-card {
+    display: flex;
+    flex-flow: column;
+    background-color: whitesmoke;
+    width:calc( ( 100% - 40px ) / 3 );
+    margin:0 0 20px;
+}
+
+.shop-card:nth-child(3n-1){
+    margin-left:20px;
+    margin-right:20px;
+  }
+
+.price-shop-card {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 10px;
+}
+
+.listView {
+    display: flex;
+    flex-flow: column;
+}
+
+.shop-item {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+	margin: 2px;
+	padding: 2px;
+	height: 130px;
+	background-color: whitesmoke;
+}
+
+.img-card-item {
+    width: 150px;
+}
+
+.h2-shop-item {
+    text-transform: uppercase;
+}
+
+.price-item {
+    color: #BB2649;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.btn-item {
+    width: 140px;
+    height: 40px;
+    border: 2px solid #BB2649;
+    outline: none;
+    border-radius: 20px;
+    text-transform: uppercase;
+    color: #BB2649;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.btn-item:hover {
+    cursor: pointer;
+}
+
+.header {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.btn {
+    border: none;
+    background-color: white;
+}
